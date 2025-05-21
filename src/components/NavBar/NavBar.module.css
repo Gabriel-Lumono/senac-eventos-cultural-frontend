@@ -1,0 +1,41 @@
+.menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Logo x Links */
+  background-color: #004C94;       /* Azul Senac */
+  padding: 0.5rem 1rem;
+}
+
+/* Logo */
+.logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Container dos botões/links */
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Estilo comum para <a> e <button> */
+.nav-links > a,
+.nav-links > button {
+  background-color: #F7941D;  /* Laranja Senac */
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;      /* remove sublinhado dos <a> */
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Hover */
+.nav-links > a:hover,
+.nav-links > button:hover {
+  background-color: #FDC180;  /* Laranja claro */
+}
