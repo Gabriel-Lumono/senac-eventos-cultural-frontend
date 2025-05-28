@@ -3,5 +3,6 @@ export const ROUTES = {
     events: '/events',
     login: '/login',
     register: '/register',
-    create_events: '/create_events'
+    create_events: '/create_events',
+    dashboard: '/dashboard',
 };
