@@ -1,5 +1,5 @@
-import React, { useEffect, useState, type FormEvent } from 'react';
-import { useNavigate } from 'react-router';
+import { useEffect, useState, type FormEvent } from 'react';
+import { useNavigate } from 'react-router'; 
 import styles from './DashboardPage.module.css';
 
 import NavBarComponent from '../../components/NavBar/NavBarComponent';
