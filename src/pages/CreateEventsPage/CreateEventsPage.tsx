@@ -1,4 +1,4 @@
-import React, { useState, type FormEvent } from "react";
+import { useState, type FormEvent } from "react";
 import styles from "./CreateEventsPage.module.css"; // crie o CSS como preferir
 import NavBarComponent from "../../components/NavBar/NavBarComponent";
 
